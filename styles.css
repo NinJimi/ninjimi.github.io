@@ -1,3 +1,41 @@
+/* color for last update text #F7B32B */
 body {
     background-color: white;
+    line-height: 1.4;
+}
+.home-img{
+    width: 200px;
+    display: block;
+    float: right;
+    box-shadow: -.3em .3em .5em #2B2D42;
+}
+header {
+    background-color: #2B2D42;
+    padding: 1em;
+    text-align: center;
+    border-radius: 10px;
+}
+footer {
+    background-color: #2B2D42;
+    padding: 1em;
+    text-align: center;
+    border-radius: 10px;
+}
+.footer-text {
+    color: #A9E5BB;
+}
+.home-heading1 {
+    color: #A9E5BB;
+    font-size: 27px;
+}
+.home-heading2{
+    margin-bottom: -.2em;
+}
+#home-content {
+    max-width: 750px;
+    margin: 0 auto;
+}
+.home-line{
+    width: 510px;
+    margin-left: 0;
 }
