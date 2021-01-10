@@ -26,7 +26,8 @@ footer {
 }
 .home-heading1 {
     color: #A9E5BB;
-    font-size: 27px;
+    font-size: 40px;
+    margin: 0 auto;
 }
 .home-heading2{
     margin-bottom: -.2em;
@@ -38,4 +39,14 @@ footer {
 .home-line{
     width: 510px;
     margin-left: 0;
+}
+.byuNav {
+    color: #A9E5BB;
+
+}
+.byuNav:hover{
+    color: white;
+}
+.lastUpdated{
+    color: #F7B32B;
 }
