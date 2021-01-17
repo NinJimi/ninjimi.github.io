@@ -1,0 +1,78 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+/* body rules here */
+body{
+    font-family: Verdana;
+    font-size: 16px;
+}
+/*header rules here */
+header {
+    background-color: #2b2d42;
+    padding: 1.5rem 2%;
+}
+header h1{
+    margin: 0;
+    color: #a9e5bb;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+}
+header h2{
+    margin: 0;
+    padding: .4rem;
+    color: #a9e5bb;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 100;
+}
+
+/* main rules here */
+main{
+    margin: 0 auto;
+    padding: 1.5rem 2%;
+    display: grid;
+}
+main h1{
+    background-color: #2b2d42;
+    color:#a9e5bb;
+    padding: .5rem;
+    border-radius: 5px, 5px, 0, 0;
+    font-size: 20px;
+    margin: 0;
+}
+main h2{
+    font-size: 16px;
+}
+main figure img{
+    width: 100%;
+}
+main figure{
+    width: 100%;
+    margin: 0;
+}
+main section{
+    background-color:aliceblue;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #2b2d42;
+    margin: .5rem;
+}
+/* footer rules here */
+footer{
+    background-color: #2b2d42;
+    padding: 1.5rem 2%;
+    color: #a9e5bb;
+    text-align: center;
+}
+/* fixin' makes me feel good */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
