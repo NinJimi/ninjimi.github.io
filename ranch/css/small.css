@@ -1,8 +1,12 @@
-* { -moz-box-sizing: border-box; 
-    -webkit-box-sizing: border-box; 
-    box-sizing: border-box; }
-html {-webkit-text-size-adjust: 100%; 
-    -ms-text-size-adjust: 100%;}
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
 /* body rules here */
 body {
     font-family: Verdana;
@@ -11,43 +15,62 @@ body {
 
 /* header rules here */
 header {
-    background-color: #17a8e4 ;
+    background-color: #17a8e4;
     padding: 1rem 2%;
 }
 header h1 {
-margin: 0;
+    margin: 0;
 }
 header h2 {
-margin: 0;
+    margin: 0;
+    font-size: 20px;
+    font-weight: normal;
 }
 
 /* navigation rules here */
-nav {background-color: #111;}
-nav ul {margin: 0; padding: 0;}
-nav li {list-style-type: none;}
-nav li.active {background-color: #333;}
+nav {
+    background-color: #111;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    list-style-type: none;
+}
+nav li.active {
+    background-color: #333;
+}
 nav a {
-    display:block;
-    padding: .8rem 0;
+    display: block;
+    padding: 0.8rem 0;
     color: #eee;
     text-align: center;
     text-decoration: none;
 }
-nav a:hover {background-color: #444 ;}
+nav a:hover {
+    background-color: #444;
+}
 
 /* main rules here */
 main {
     padding: 1rem 2%;
     display: block;
 }
-main h1{color: #17a8e4;}
-main figure img {width: 100%;}
-main figure{
+main h1 {
+    color: #17a8e4;
+}
+main figure img {
+    width: 100%;
+}
+main figure {
     width: 100%;
     margin: 0;
 }
-main figcaption {text-align: center; font-size: .8rem;}
-
+main figcaption {
+    text-align: center;
+    font-size: 0.8rem;
+}
 
 footer {
     text-align: center;
@@ -55,7 +78,7 @@ footer {
     background-color: #19a8e4;
 }
 
-.clearfix::after{
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
