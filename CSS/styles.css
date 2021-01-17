@@ -6,8 +6,8 @@ body {
 .home-img{
     width: 200px;
     display: block;
-    float: right;
     box-shadow: -.3em .3em .5em #2B2D42;
+    margin: auto;
 }
 header {
     background-color: #2B2D42;
@@ -23,6 +23,9 @@ footer {
 }
 .footer-text {
     color: #A9E5BB;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Abel', sans-serif;
 }
 .home-heading1 {
     color: #A9E5BB;
