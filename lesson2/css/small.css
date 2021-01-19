@@ -70,9 +70,3 @@ footer{
     color: #a9e5bb;
     text-align: center;
 }
-/* fixin' makes me feel good */
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}

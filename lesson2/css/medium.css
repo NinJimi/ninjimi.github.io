@@ -4,6 +4,9 @@ main{
     max-width: 1279px;
     grid-template-columns: 1fr, 1fr;
 }
+section{
+    overflow: hidden;
+}
 .section1{
     grid-column: 1;
 }
