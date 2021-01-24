@@ -1,0 +1,11 @@
+@media only screen and (min-width: 1028px){
+
+header, nav, main, footer{
+    max-width: 1028px;
+    margin: auto;
+}
+/*----Main----*/
+main img{
+    width:1000px;
+}
+}/*----End of Media Query----*/

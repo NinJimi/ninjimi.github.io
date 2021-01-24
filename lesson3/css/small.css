@@ -1,0 +1,92 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+/*----Body Rules Here----*/
+body{
+    font-family: Verdana;
+    font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Noto Sans", sans-serif;
+}
+/*----Header Rules Here----*/
+header {
+    background-color: #2b2d42;
+    padding: 1.5rem 2%;
+}
+header img{
+    float: left;
+    margin-right: 10px;
+    width: 50px;
+}
+header h1{
+    margin: 0;
+    color: #a9e5bb;
+    font-family: 'Noto Sans', sans-serif;
+    font-size:large;
+}
+header h2{
+    margin: 0;
+    padding: .4rem;
+    color: #a9e5bb;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: medium;
+    font-weight: 100;
+}
+/*----Nav Rules Here----*/
+nav{
+    background-color: #F7B32B;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a{
+    display: block;
+    color:#2b2d42;
+    padding: .5rem 0;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+nav ul li a:hover{
+    background-color: #a9e5bb;
+}
+nav ul li.active a{
+    background-color: #2b2d42;
+    color:#F7B32B;
+}
+/*----Main Rules Here----*/
+main {
+    padding: 0 2%;
+}
+main h1{
+    font-size: 24px;
+}
+main h2{
+    font-size: 20px;
+}
+main img{
+    width: 300px;
+}
+/*----Footer Rules Here----*/
+footer{
+    background-color: #2b2d42;
+    padding: 1.5rem 2%;
+    color: #a9e5bb;
+    text-align: center;
+}
+/*----Clearfix----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
