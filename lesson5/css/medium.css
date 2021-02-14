@@ -60,8 +60,16 @@
     main div.article{
         text-align: left;
     }
-    div.article picture img {
+    main div.article picture img {
         float: right;
+        max-width: 50%;
+        margin: 1%;
+    }
+    main div.contact picture{
+        display: block;
+    }
+    main div.contact picture img{
+        float: left;
         max-width: 50%;
         margin: 1%;
     }
