@@ -60,12 +60,10 @@
     main div.article{
         text-align: left;
     }
-    div.article img {
+    div.article picture img {
         float: right;
-        max-width: 100%;
-        height: auto;
-        margin: .8rem;
-    }
+        max-width: 50%;
+        margin: 1%;
     }
 
 } /* End of Media Query */

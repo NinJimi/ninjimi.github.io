@@ -26,8 +26,4 @@
     main h2{
         font-size: 26px;
     }
-    main div.article img{
-        max-width: 100%;
-        height: auto;
-    }
-}
+} /*End of Media Query */

@@ -99,20 +99,16 @@ main div {
 }
 main div.hero img{
     max-width: 100%;
-    height: auto;
-    background-size:cover;
 }
 section.forecast{
     display: none;
 }
 main div.article{
     border-radius: 15px;
-
     background-color: #a9e5bb;
 }
-main div.article img{
-    max-width: 100%;
-    height: auto;
+main div.article picture img{
+    max-width: 50%;
 }
 
 /* Footer */
