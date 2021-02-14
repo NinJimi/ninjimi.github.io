@@ -1,0 +1,150 @@
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Start Small Screen CSS */
+
+/* Body */
+body{
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Noto Sans", sans-serif;
+}
+/* Header */
+
+header {
+    background-color: #2b2d42;
+    padding: .8rem 2%;
+}
+header img{
+    float: left;
+    margin-right: 10px;
+    width: 100px;
+}
+header button {
+    float: right;
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #fff;
+}
+header h1{
+    margin: 0;
+    color: #a9e5bb;
+    font-size: 20px;
+}
+
+header h2{
+    margin: 0;
+    padding: .4rem;
+    color:#a9e5bb;
+    font-size: 18px;
+    font-weight:100;
+}
+
+/* Navigation */
+
+nav{
+    background-color: #F7B32B;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #2b2d42;
+    border-top: 1px solid rgba(0,0,0,0.3);
+}
+
+nav ul li.active a {
+    background-color: rgb(247, 160, 40);
+}
+
+nav ul li a:hover {
+    background-color: #2b2d42;
+    color: #a9e5bb;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+/* Main */
+main {
+    padding: 0 2%;
+}
+main h2 {
+    font-size: 20px;
+}
+div#fri_message{
+    background-color: #F7B32B;
+    margin: 10px;
+    padding: .8rem;
+}
+div.showme{display:block}
+div.hideme{display:none}
+main div {
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+main div.hero picture img{
+    max-width: 100%;
+}
+main div.summary {
+    background-color: #F7B32B80;
+    padding: 1;
+    float:left;
+    text-align: left;
+    position: absolute;
+    border: 1px solid #2b2d42;
+    box-shadow: 4px 2px 10px black;
+}
+section.forecast{
+    display: none;
+}
+main div.article{
+    border-radius: 15px;
+    background-color: #a9e5bb80;
+}
+main div.article picture img{
+    max-width: 50%;
+}
+
+main div.contact {
+    background-color: #a9e5bb;
+    margin-bottom: 0;
+}
+main div.contact picture{
+    display: none;
+}
+main div.contact p.pHead{
+    font-weight: 600;
+}
+main div.contact p{
+    padding: 0;
+    margin: 0;
+}
+
+/* Footer */
+footer{
+    background-color: #2b2d42;
+    padding: 1.5rem 2%;
+    color: #a9e5bb;
+    text-align: center;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
