@@ -97,8 +97,13 @@ main div {
     text-align: center;
     padding: 10px;
 }
-main div.hero img{
+main div.hero picture img{
     max-width: 100%;
+}
+main div.summary {
+    background-color: #F7B32B50;
+    padding: 1;
+    float:left;
 }
 section.forecast{
     display: none;
