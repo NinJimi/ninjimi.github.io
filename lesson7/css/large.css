@@ -26,4 +26,12 @@
     main h2{
         font-size: 26px;
     }
+    main div.gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 1rem;
+    }
+    main div.gallery figure:hover {
+        box-shadow: 3px 3px 8px;
+        transition: 0.3s ease-in-out;
+    }
 } /*End of Media Query */

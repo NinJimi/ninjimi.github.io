@@ -82,5 +82,8 @@
         text-align: left;
         grid-column: 2;
     }
+    main div.gallery {
+        grid-template-columns: 1fr 1fr;
+    }
 
 } /* End of Media Query */
