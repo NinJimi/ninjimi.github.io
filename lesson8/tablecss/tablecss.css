@@ -1,0 +1,51 @@
+html {
+    font-family : "ubuntu", sans-serif;
+    text-align: center;
+}
+main {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+table {
+    background-color: #e7f0ed;
+    margin: 0 auto;
+    font-size: 1.5em;
+    box-shadow: .5em .5em 1em #628ca6;
+    width: 375px;
+}
+table, th, td {    
+    border: 1px solid rgb(180, 180, 180);
+    border-collapse: collapse;
+}
+td, th {
+    padding: 7px;
+}
+tbody tr:nth-child(even) {
+    background-color: #e7ffed;
+}
+
+thead tr th.tabletitle {
+    color: black;
+    font-weight: 700;
+    background-color: #7fb9c2;
+    font-size: 1.5em;
+    margin: 0 auto;
+    padding: 7px;
+    
+}
+th, tr:nth-child(4) :last-child{
+    background-color: #628ca6;
+    color: white;
+}
+
+tbody tr th {
+    font-size: 1em;
+}
+tbody tr:nth-child(5) :first-child {
+    font-style: italic;
+}
+
+tfoot {
+    font-size: .6em;
+    background-color: #7fb9c2;
+}

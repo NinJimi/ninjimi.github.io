@@ -1,0 +1,37 @@
+@media only screen and (min-width: 1028px) {
+    footer, main{
+        max-width: 75rem;
+        margin: auto;
+    }
+
+    /* Header */
+    header img {
+        width: 150px;
+    }
+    header h1{
+        font-size: 32px;
+    }
+    header h2{
+        font-size: 26px;
+    }
+    /* Navigation */
+    nav ul li a {
+        padding: .6rem 1rem;
+    }
+
+    /* Main */
+    main h1{
+        font-size: 32px;
+    }
+    main h2{
+        font-size: 26px;
+    }
+    main div.gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 1rem;
+    }
+    main div.gallery figure:hover {
+        box-shadow: 3px 3px 8px;
+        transition: 0.3s ease-in-out;
+    }
+} /*End of Media Query */
