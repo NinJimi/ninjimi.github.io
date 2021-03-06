@@ -188,6 +188,7 @@ form label.slider {
 form label.radioSelect{
     display: flex;
     margin-top: 5px;
+    margin-left: 1rem;
     padding: .2rem;
 }
 form textarea{
