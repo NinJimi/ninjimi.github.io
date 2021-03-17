@@ -85,6 +85,7 @@ main {
 main h2 {
     font-size: 20px;
 }
+main h3{font-size: 18px;}
 div#fri_message{
     background-color: #F7B32B;
     margin: 10px;
@@ -149,6 +150,23 @@ main div.gallery figcaption{
     padding: 1rem 0 1rem 0;
 }
 
+/*Home Page*/
+main article#card_info div{
+    background-color: #F7B32B;
+    padding: .3rem;
+    border-radius: .5rem .5rem .5rem .5rem ;
+}
+main article#card_info section h2, main article#card_info section h3{
+    margin: .3rem;
+}
+main article#card_info figure{
+    margin: 1rem;
+}
+main article#card_info img{
+    max-width: 100%;
+    margin: 0 auto;
+    box-shadow: 2px 2px 5px black;
+}
 /* Storm Page Form */
 form{
     max-width: 25rem;

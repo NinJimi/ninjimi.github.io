@@ -2,13 +2,6 @@
 function toggleMenu(){
     document.getElementById("primaryNav").classList.toggle("hide");
 }
-const today = new Date();
-const dayNumber = today.getDay();
-if (dayNumber == 5) {
-    document.getElementById("fri_message").classList.add("showme");
-} else {
-    document.getElementById("fri_message").classList.add("hideme");
-}
 /* Current Date Script*/
 var now = new Date();
 var weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];

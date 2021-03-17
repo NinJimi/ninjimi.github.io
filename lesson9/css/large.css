@@ -34,4 +34,12 @@
         box-shadow: 3px 3px 8px;
         transition: 0.3s ease-in-out;
     }
+    /* Home Page */
+    main article#card_info{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    main article#card_info div{
+        display:block;
+    }
 } /*End of Media Query */
