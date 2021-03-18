@@ -115,7 +115,7 @@ section.forecast{
 }
 main div.article{
     border-radius: 15px;
-    background-color: #a9e5bbb0;
+    background-color: #F7B32B;
 }
 main div.article picture img{
     max-width: 50%;
@@ -124,6 +124,7 @@ main div.article picture img{
 main div.contact {
     background-color: #a9e5bb;
     margin-bottom: 0;
+    border-radius: 1rem 1rem 0 0;
 }
 main div.contact picture{
     display: none;
@@ -148,6 +149,18 @@ main div.gallery figure{
 }
 main div.gallery figcaption{
     padding: 1rem 0 1rem 0;
+}
+main section.events{
+    background-color: #f7b32b;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: .8rem;
+    text-align: center;
+}
+main section.events h2{
+    color: #2b2d42;
+    border-bottom: 1px solid #2b2d42;
+    padding-bottom: .2rem;
 }
 
 /*Home Page*/
