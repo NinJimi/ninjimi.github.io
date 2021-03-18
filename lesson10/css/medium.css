@@ -1,0 +1,104 @@
+@media only screen and (min-width: 679px) {
+    /* Header */
+    header img {
+        width: 120px;
+    }
+    header h1{
+        font-size: 28px;
+    }
+    header h2{
+        font-size: 24px;
+    }
+    header button {
+        display: none;
+    }
+
+    /* Navigation */
+   
+
+    nav ul {
+        margin-left: 2%;
+    }
+
+    nav ul.hide {
+        display: block;
+    }
+
+    nav ul li {
+        float: left;
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.3);
+        padding: .8rem 1rem;
+    }
+
+    /* Main */
+    main h1{
+        font-size: 28px;
+    }
+    main h2{
+        font-size: 24px;
+    }
+    main h3{
+        font-size: 20px;
+    }
+    main section.forecast{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        margin: .8rem;
+    }
+    section.forecast div{
+        text-align: center;
+        border: 1px solid #aaa;
+        margin: 0;
+    }
+    section.forecast div h5{
+        background-color: #F7B32B;
+        color: #2b2d42;
+        padding: 1rem 0;
+        margin: 0;
+    }
+    main div.article{
+        text-align: left;
+    }
+    main div.article picture img {
+        float: right;
+        max-width: 50%;
+        margin: 1%;
+    }
+    main div.contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    main div.contact picture{
+        display: block;
+        flex: auto;
+        grid-column: 1;
+    }
+    main div.contact picture img{
+        max-width: 75%;
+        margin: 1%;
+    }
+    main div.contact p{
+        text-align: left;
+        grid-column: 2;
+    }
+    main div.gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+    /*Home Page*/
+    main article#card_info div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    main article#card_info div:nth-child(odd) figure{
+        grid-column: 2;
+    }
+    main article#card_info div:nth-child(odd) section{
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+} /* End of Media Query */

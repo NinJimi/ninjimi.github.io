@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <!--Meta-->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+            name="description"
+            content="Preston Idaho web page for an assignment in WDD 230 at BYU-I"
+        />
+        <!--Favicon-->
+        <link rel="shortcut icon" href="images/weather_favicon.ico" />
+        <!--Fonts-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
+            rel="stylesheet"
+        />
+        <!--Stylesheets-->
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="css/small.css" />
+        <link rel="stylesheet" type="text/css" href="css/medium.css" />
+        <link rel="stylesheet" type="text/css" href="css/large.css" />
+        <!--Everything Else-->
+        <title>Idaho Weather Wizard</title>
+    </head>
+    <body>
+        <header class="clearfix">
+            <img src="images/weather_logo.png" alt="Header Logo" />
+            <h1>Idaho Weather Wizard</h1>
+            <button onclick="toggleMenu()">&#9776;</button>
+            <h2>Climate information at the tip of your fingers</h2>
+        </header>
+
+        <!--Navigation-->
+        <nav class="clearfix">
+            <ul id="primaryNav" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="preston.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery-7.html">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <!--Main-->
+        <main class="clearfix">
+            <div id="fri_message">
+                Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at
+                the city park pavilion.
+            </div>
+            <h2>Preston Idaho</h2>
+            <div class="hero">
+                <div class="summary">
+                    <strong><u>Weather Summary</u></strong> <br>
+                    Currently: <span id="current-sky"></span> <br>
+                    High: <span id="current-high"></span>&degF<br>
+                    Current: <span id="current-temp"></span>&degF<br>
+                    Low: <span id="current-low"></span>&degF<br>
+                    Wind Chill: <span id="windChill"></span><br>
+                    Humidity: <span id="current-humidity"></span>% <br>
+                    Wind Speed: <span id="current-windSpeed"></span> mph<br>
+                </div>
+                <picture>
+                    <source media="(max-width: 400px)" srcset="images/franklinOriginal400.jpg">
+                    <source media="(max-width: 800px)" srcset="images/franklinOriginal800.jpg">
+                    <img src="images/franklinOriginal1100.jpg" alt="Lake and mountains">
+                </picture>
+            </div>
+            <section class="forecast">
+                <div>
+                    <h5><span id="day1"></span></h5>
+                    <img src="" alt="" id="icon1"/>
+                    <p><span id="temp1"></span>&deg;F</p>
+                </div>
+                <div>
+                    <h5><span id="day2"></span></h5>
+                    <img src="" alt="" id="icon2"/>
+                    <p><span id="temp2"></span>&deg;F</p>
+                </div>
+                <div>
+                    <h5><span id="day3"></span></h5>
+                    <img src="" alt="" id="icon3"/>
+                    <p><span id="temp3"></span>&deg;F</p>
+                </div>
+                <div>
+                    <h5><span id="day4"></span></h5>
+                    <img src="" alt="" id="icon4"/>
+                    <p><span id="temp4"></span>&deg;F</p>
+                </div>
+                <div>
+                    <h5><span id="day5"></span></h5>
+                    <img src="" alt="" id="icon5"/>
+                    <p><span id="temp5"></span>&deg;F</p>
+                </div>
+            </section>
+            <div class="article">
+                <picture>
+                    <source media="(max-width: 400px)" srcset="images/idaho_map200.jpg">
+                    <source media="(max-width: 800px)" srcset="images/idaho_map400.jpg">
+                    <img src="images/idaho_map800.jpg" alt="Map of Idaho">
+                </picture>
+                <h2>Article</h2>
+                <h3>by Jimi Moser</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ornare aenean euismod elementum nisi quis eleifend
+                    quam. At auctor urna nunc id. Eget gravida cum sociis
+                    natoque penatibus et magnis dis parturient. Integer
+                    malesuada nunc vel risus commodo viverra maecenas. Id
+                    aliquet lectus proin nibh. Laoreet sit amet cursus sit amet
+                    dictum sit amet justo. Urna cursus eget nunc scelerisque.
+                    Dictum non consectetur a erat nam at lectus urna duis. Felis
+                    bibendum ut tristique et egestas. Neque viverra justo nec
+                    ultrices dui. Lorem ipsum dolor sit amet. Pellentesque
+                    dignissim enim sit amet. Diam sollicitudin tempor id eu nisl
+                    nunc. Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ornare aenean euismod elementum nisi quis
+                    eleifend quam. At auctor urna nunc id. Eget gravida cum
+                    sociis natoque penatibus et magnis dis parturient. Integer
+                    malesuada nunc vel risus commodo viverra maecenas. Id
+                    aliquet lectus proin nibh. Laoreet sit amet cursus sit amet
+                    dictum sit amet justo. Urna cursus eget nunc scelerisque.
+                    Dictum non consectetur a erat nam at lectus urna duis. Felis
+                    bibendum ut tristique et egestas. Neque viverra justo nec
+                    ultrices dui. Lorem ipsum dolor sit amet. Pellentesque
+                    dignissim enim sit amet. Diam sollicitudin tempor id eu nisl
+                    nunc.
+                </p>
+            </div>
+            <div class="contact">
+                <picture>
+                    <source media="(max-width: 800px)" srcset="images/preston200.jpg">
+                    <img src="images/preston400.jpg" alt="Map of Preston">
+                </picture>
+                <div>
+                <p class="pHead">Idaho Weather Wizard</p>
+                <p><img src="images/map_marker16.png" alt="map marker"> 30 N 1st E</p>
+                <p>Preston, ID 83263</p>
+                <br>
+                <p><img src="images/phone16.png" alt="phone"> 909.555.5533</p>
+                <p><img src="images/email16.png" alt="email"> idweatherwiz@idww.com</p>
+                <br>
+                <p>
+                    <img src="images/facebook16.png" alt="facebook">
+                    <img src="images/pintrest16.png" alt="pintrest">
+                    <img src="images/twitter16.png" alt="twitter">
+                    <img src="images/whatsapp16.png" alt="whatsapp">
+                </p>
+                </div>
+            </div>
+        </main>
+
+        <!--Footer-->
+        <footer>
+            <p>&copy;Idaho Weather Wizard | Jimi Moser</p>
+            <span id="fullDate"></span>
+        </footer>
+
+        <!--JavaScript-->
+        <script src="js/scripts.js"></script>
+        <script src="js/windchill.js"></script>
+        <script src="js/event.js"></script>
+        <script src="js/currentWeather.js"></script>
+        <script src="js/fivedayWeather.js"></script>
+    </body>
+</html>
