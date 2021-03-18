@@ -1,0 +1,249 @@
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Start Small Screen CSS */
+
+/* Body */
+body{
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Noto Sans", sans-serif;
+}
+/* Header */
+
+header {
+    background-color: #2b2d42;
+    padding: .8rem 2%;
+}
+header img{
+    float: left;
+    margin-right: 10px;
+    width: 100px;
+}
+header button {
+    float: right;
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #fff;
+}
+header h1{
+    margin: 0;
+    color: #a9e5bb;
+    font-size: 20px;
+}
+
+header h2{
+    margin: 0;
+    padding: .4rem;
+    color:#a9e5bb;
+    font-size: 18px;
+    font-weight:100;
+}
+
+/* Navigation */
+
+nav{
+    background-color: #F7B32B;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #2b2d42;
+    border-top: 1px solid rgba(0,0,0,0.3);
+}
+
+nav ul li.active a {
+    background-color: rgb(247, 160, 40);
+}
+
+nav ul li a:hover {
+    background-color: #2b2d42;
+    color: #a9e5bb;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+/* Main */
+main {
+    padding: 0 2%;
+}
+main h2 {
+    font-size: 20px;
+}
+main h3{font-size: 18px;}
+div#fri_message{
+    background-color: #F7B32B;
+    margin: 10px;
+    padding: .8rem;
+}
+div.showme{display:block}
+div.hideme{display:none}
+main div {
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+main div.hero picture img{
+    max-width: 100%;
+}
+main div.summary {
+    background-color: #f7b32bd4;
+    padding: 1rem;
+    float:left;
+    text-align: left;
+    position: absolute;
+    border: 1px solid #2b2d42;
+    box-shadow: 4px 2px 10px black;
+}
+section.forecast{
+    display: none;
+}
+main div.article{
+    border-radius: 15px;
+    background-color: #a9e5bbb0;
+}
+main div.article picture img{
+    max-width: 50%;
+}
+
+main div.contact {
+    background-color: #a9e5bb;
+    margin-bottom: 0;
+}
+main div.contact picture{
+    display: none;
+}
+main div.contact p.pHead{
+    font-weight: 600;
+}
+main div.contact p{
+    padding: 0;
+    margin: 0;
+}
+main div.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+}
+main div.gallery figure{
+    max-width: 100%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 5px #ccc;
+    transition: all 0.3s ease-in-out;
+}
+main div.gallery figcaption{
+    padding: 1rem 0 1rem 0;
+}
+
+/*Home Page*/
+main article#card_info div{
+    background-color: #F7B32B;
+    padding: .3rem;
+    border-radius: .5rem .5rem .5rem .5rem ;
+}
+main article#card_info section h2, main article#card_info section h3{
+    margin: .3rem;
+}
+main article#card_info figure{
+    margin: 1rem;
+}
+main article#card_info img{
+    max-width: 100%;
+    margin: 0 auto;
+    box-shadow: 2px 2px 5px black;
+}
+/* Storm Page Form */
+form{
+    max-width: 25rem;
+    margin: 1rem auto;
+}
+form fieldset {
+    border: 0;
+    box-shadow: 1px 1px 5px #ccc;
+    padding: 1rem;
+    background-color: #2b2d42;
+    color: #a9e5bb;
+    border-radius: 15px;
+    margin: 1rem;
+}
+form fieldset legend {
+    padding: .4rem;
+    box-shadow: 1px 1px 5px #ccc;
+    background-color: #F7B32B;
+    border-radius: 8px;
+    color: black;
+}
+form label.top {
+    display: block;
+    margin: 1rem;
+}
+form label.top input, form label.top select{
+    display: block;
+    padding: .3rem;
+    margin-top: 5px;
+}
+form label.slider {
+    display: flex;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+#ratingvalue {padding: .5rem;}
+form label.radioSelect{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 1rem;
+    padding: .2rem;
+}
+form textarea{
+    width: 100%;
+    height: 15rem;
+}
+form input.submitButton {
+    border: none;
+    background-color: #F7B32B;
+    color: black;
+    border-radius: 6px;
+    box-shadow: .5px .5px 2.5px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: .4rem;
+    margin-left: 1rem;
+    transition: ease-in-out 250ms;
+}
+form input.submitButton:hover{
+    background-color: green;
+}
+form label.top input:required{
+    border-left: solid red 3px;
+}
+form label.top input:required:valid{
+    border-left: solid green 3px;
+}
+/* Footer */
+footer{
+    background-color: #2b2d42;
+    padding: 1.5rem 2%;
+    color: #a9e5bb;
+    text-align: center;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}

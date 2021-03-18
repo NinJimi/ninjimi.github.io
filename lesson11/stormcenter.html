@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <!--Meta-->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+            name="description"
+            content="Preston Idaho web page for an assignment in WDD 230 at BYU-I"
+        />
+        <!--Favicon-->
+        <link rel="shortcut icon" href="images/weather_favicon.ico" />
+        <!--Fonts-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
+            rel="stylesheet"
+        />
+        <!--Stylesheets-->
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="css/small.css" />
+        <link rel="stylesheet" type="text/css" href="css/medium.css" />
+        <link rel="stylesheet" type="text/css" href="css/large.css" />
+        <!--Everything Else-->
+        <title>Idaho Weather Wizard</title>
+    </head>
+    <body>
+        <header class="clearfix">
+            <img src="images/weather_logo.png" alt="Header Logo" />
+            <h1>Idaho Weather Wizard</h1>
+            <button onclick="toggleMenu()">&#9776;</button>
+            <h2>Climate information at the tip of your fingers</h2>
+        </header>
+
+        <!--Navigation-->
+        <nav class="clearfix">
+            <ul id="primaryNav" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li class="active"><a href="#">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <!--Main-->
+        <main class="clearfix">
+            <h2>Storm Report Center</h2>
+            <form method="GET" action="thanks.html">
+                <!-- 1st Fieldset -->
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label class="top">Full Name* <input type="text" name="fname" pattern="[A-Za-z ]{5,}"
+                            required></label>
+                    <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+                    <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
+                    <label class="top">Zipcode* <input type="number" name="zipcode" required></label>
+                </fieldset>
+                <!-- 2nd Fieldset -->
+                <fieldset>
+                    <legend>Storm Sighting Details</legend>
+                    <label class="top">Storm Date <input type="date" name="stormDate"></label>
+                    <label class="top">Storm Type
+                        <input name="storm" list="stormtype">
+                        <datalist id="stormtype">
+                            <option value="Flash Flood"></option>
+                            <option value="Hail"></option>
+                            <option value="Hurricance"></option>
+                            <option value="Thunderstorm"></option>
+                            <option value="Tornado"></option>
+                        </datalist>
+                    </label>
+                    
+                    <label class="slider" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;
+                        <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
+                            oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        <span id="ratingvalue">5</span>
+                    </label>
+                    <datalist id="tickmarks">
+                        <option value="0"></option>
+                        <option value="1"></option>
+                        <option value="2"></option>
+                        <option value="3"></option>
+                        <option value="4"></option>
+                        <option value="5"></option>
+                        <option value="6"></option>
+                        <option value="7"></option>
+                        <option value="8"></option>
+                        <option value="9"></option>
+                        <option value="10"></option>
+                    </datalist>
+                    <label class="top">Storm Region
+                        <select name="region">
+                            <option value="">Please Select &#9662;</option>
+                            <option value="preston">Preston</option>
+                            <option value="sodaSrings">Soda Springs</option>
+                            <option value="fishHaven">Fish Haven</option>
+                        </select>
+                    </label>
+                    <label class="top">Are you in danger?</label>
+                    <label class="radioSelect"><input type="radio" name="dangerLevel" value="yes"> Yes</label>
+                    <label class="radioSelect"><input type="radio" name="dangerLevel" value="maybe"> Maybe</label>
+                    <label class="radioSelect"><input type="radio" name="dangerLevel" value="no"> No</label>
+                </fieldset>
+                <!-- 3rd Fieldset -->
+                <fieldset>
+                    <legend>Additional Sighting Details</legend>
+                    <label class="top">
+                    <textarea name="additionalInfo"
+                            placeholder="Enter comment here..." rows="40" cols="50"></textarea>
+                    </label>
+                </fieldset>
+                
+                <!-- Submit Button -->
+                <input class="submitButton" type="submit" value="Report Storm">
+            </form>
+
+        </main>
+
+        <!--Footer-->
+        <footer>
+            <p>&copy;Idaho Weather Wizard | Jimi Moser</p>
+            <span id="fullDate"></span>
+        </footer>
+
+        <!--JavaScript-->
+        <script src="js/scripts.js"></script>
+        <script src="js/windchill.js"></script>
+        <script src="js/load.js"></script>
+        <script src="js/report.js"></script>
+    </body>
+</html>
