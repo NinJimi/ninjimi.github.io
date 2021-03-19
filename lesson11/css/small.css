@@ -254,6 +254,14 @@ footer{
     color: #a9e5bb;
     text-align: center;
 }
+footer p a{
+    text-decoration: underline;
+    color:#F7B32B;
+}
+footer p a:hover{
+    text-decoration: underline;
+    color: white;
+}
 
 .clearfix::after {
     content: "";
