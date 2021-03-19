@@ -117,7 +117,7 @@ main div.article{
     border-radius: 15px;
     background-color: #F7B32B;
 }
-main div.article picture img{
+main div.article picture{
     max-width: 50%;
 }
 

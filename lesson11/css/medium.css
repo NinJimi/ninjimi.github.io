@@ -62,11 +62,12 @@
     }
     main div.article{
         text-align: left;
+        overflow: hidden;
     }
     main div.article picture img {
         float: right;
         max-width: 50%;
-        margin: 1%;
+        margin: .3rem;
     }
     main div.contact {
         display: grid;
