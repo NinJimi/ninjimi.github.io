@@ -110,6 +110,7 @@ main div.summary {
     border: 1px solid #192c40;
     box-shadow: 4px 2px 10px black;
 }
+
 section.forecast{
     display: none;
 }
@@ -126,7 +127,7 @@ main div.contact {
     margin-bottom: 0;
     border-radius: 1rem 1rem 0 0;
 }
-main div.contact picture{
+main div.contact iframe{
     display: none;
 }
 main div.contact p.pHead{

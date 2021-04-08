@@ -44,6 +44,7 @@
     main h3{
         font-size: 20px;
     }
+    main h3.forecast{display: block;}
     main section.forecast{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -73,12 +74,12 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    main div.contact picture{
+    main div.contact iframe{
         display: block;
         flex: auto;
         grid-column: 1;
     }
-    main div.contact picture img{
+    main div.contact iframe{
         max-width: 75%;
         margin: 1%;
     }
