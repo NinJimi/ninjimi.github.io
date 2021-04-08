@@ -16,6 +16,7 @@ fetch("https://ninjimi.github.io/final_project/js/yucaipa.json")
                 let address = document.createElement('p');
                 let phone = document.createElement('p');
                 let email = document.createElement('p');
+                let web = document.createElement('p');
                 let image = document.createElement('img');
 
                 businessName.textContent = business[i].title;
@@ -23,7 +24,8 @@ fetch("https://ninjimi.github.io/final_project/js/yucaipa.json")
                 address.textContent = "Address: " + business[i].address;
                 phone.textContent = "Phone Number: " + business[i].phone;
                 email.textContent = "Email: " + business[i].email;
-                image.setAttribute('src', business[i].img);
+                web.textContent = "Website: " + business[i].web;
+                image.setAttribute('src', '/images/business/' + business[i].img);
                 image.setAttribute('alt', business[i].title);
 
                 photo.appendChild(image);
@@ -34,6 +36,7 @@ fetch("https://ninjimi.github.io/final_project/js/yucaipa.json")
                 info.appendChild(address);
                 info.appendChild(phone);
                 info.appendChild(email);
+                info.appendChild(web);
                 card.appendChild(info);
 
                 document.getElementById('card_info').appendChild(card);
