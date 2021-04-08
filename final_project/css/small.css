@@ -110,7 +110,7 @@ main div.summary {
     border: 1px solid #192c40;
     box-shadow: 4px 2px 10px black;
 }
-
+main h3.forecast{display: none;}
 section.forecast{
     display: none;
 }
