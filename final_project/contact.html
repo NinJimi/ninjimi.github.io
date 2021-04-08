@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <!--Meta-->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+            name="description"
+            content="Yucaipa Chamber of Commerce project for BYU-I WDD 230 by Jimi Moser"
+        />
+        <!--Favicon-->
+        <link rel="shortcut icon" href="images/weather_favicon.ico" />
+        <!--Fonts-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
+            rel="stylesheet"
+        />
+        <!--Stylesheets-->
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="css/small.css" />
+        <link rel="stylesheet" type="text/css" href="css/medium.css" />
+        <link rel="stylesheet" type="text/css" href="css/large.css" />
+        <!--Everything Else-->
+        <title>Yucaipa Chamber of Commerce</title>
+    </head>
+    <!--Body-->
+    <body>
+        <!--Header-->
+        <header class="clearfix">
+            <img src="images/yuc_chamber_comm.jpg" alt="Yucaipa Chamber of Commerce Logo" />
+            <h1>Yucaipa Chamber of Commerce</h1>
+            <button onclick="toggleMenu()">&#9776;</button>
+            <h2>Let your business's voice be heard!</h2>
+        </header>
+
+        <!--Navigation-->
+        <nav class="clearfix">
+            <ul id="primaryNav" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="yucaipa.html">Yucaipa</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <!--Main-->
+        <main>
+            <!--Contact Us-->
+            <h3>Contact Us!</h3>
+            <form method="GET" action="thanks.html">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label class="top">First Name* <input type="text" name="fname" pattern="[A-Za-z ]{2,}" required></label>
+                    <label class="top">Last Name* <input type="text" name="lname" pattern="[A-Za-z]{2,}" required></label>
+                    <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                    <label class="top">Phone <input type="tel" name="phone" placeholder="(123) 555-0123"></label>
+                    <label class="top">Comment
+                        <textarea name="bdescription" placeholder="Enter comment here..." rows="40" cols="40"></textarea>
+                        </label>
+                </fieldset>
+                <input class="submitButton" type="submit" value="Submit">
+            </form>
+            <!--Regular Contact Info-->
+            <div class="contact">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9352.00721290039!2d-117.04139290545248!3d34.03274030503607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80db5103d224edfb%3A0x51f3283bc089d1b2!2s12052%20California%20St%2C%20Yucaipa%2C%20CA%2092399!5e0!3m2!1sen!2sus!4v1617837404320!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <div>
+                <p class="pHead">Yucaipa Chamber of Commerce</p>
+                <p><img src="images/map_marker16.png" alt="map marker"> 12052 California St.</p>
+                <p>Yucaipa, CA 92399</p>
+                <br>
+                <p><img src="images/phone16.png" alt="phone"> (909) 790-1841</p>
+                <p><img src="images/email16.png" alt="email"> ellen@yucaipachamber.org</p>
+                <br>
+                <p>
+                    <img src="images/icons/facebook16.png" alt="facebook">
+                    <img src="images/icons/pintrest16.png" alt="pintrest">
+                    <img src="images/icons/twitter16.png" alt="twitter">
+                    <img src="images/icons/whatsapp16.png" alt="whatsapp">
+                </p>
+                </div>
+            </div>
+        </main>
+        <!--Footer-->
+        <footer>
+            <p>&copy;Yucaipa Chamber of Commerce | Jimi Moser</p>
+            <span id="fullDate"></span>
+        </footer>
+        <script src="js/load.js"></script>
+        <script src="js/report.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>

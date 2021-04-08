@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <!--Meta-->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+            name="description"
+            content="Yucaipa Chamber of Commerce project for BYU-I WDD 230 by Jimi Moser"
+        />
+        <!--Favicon-->
+        <link rel="shortcut icon" href="images/yuc_favicon.ico" />
+        <!--Fonts-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
+            rel="stylesheet"
+        />
+        <!--Stylesheets-->
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="css/small.css" />
+        <link rel="stylesheet" type="text/css" href="css/medium.css" />
+        <link rel="stylesheet" type="text/css" href="css/large.css" />
+        <!--Everything Else-->
+        <title>Yucaipa Chamber of Commerce</title>
+    </head>
+    <!--Body-->
+    <body>
+        <!--Header-->
+        <header class="clearfix">
+            <img src="images/yuc_chamber_comm.jpg" alt="Yucaipa Chamber of Commerce Logo" />
+            <h1>Yucaipa Chamber of Commerce</h1>
+            <button onclick="toggleMenu()">&#9776;</button>
+            <h2>Let your business's voice be heard!</h2>
+        </header>
+
+        <!--Navigation-->
+        <nav class="clearfix">
+            <ul id="primaryNav" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="yucaipa.html">Yucaipa</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!--Main-->
+        <main class="clearfix">
+            <div id="thurs_message">
+                Friday: Join us for our Market Night in Uptown Yucaipa! 12 pm to 9 pm Friday nights!
+            </div>
+            <h2>The Town of Yucaipa</h2>
+            <div class="hero">
+                <picture>
+                    <source media="(max-width: 400px)" srcset="images/franklinOriginal400.jpg">
+                    <source media="(max-width: 800px)" srcset="images/franklinOriginal800.jpg">
+                    <img src="images/franklinOriginal1100.jpg" alt="Lake and mountains">
+                </picture>
+            </div>
+            <section class="events">
+                <h2>Upcoming Events!</h2>
+                <p id="events1"></p>
+                <p id="events2"></p>
+                <p id="events3"></p>
+            </section>
+            <div class="article">
+                <picture>
+                    <source media="(max-width: 400px)" srcset="images/yucaipa/yuc_sign_150.jpg">
+                    <source media="(max-width: 800px)" srcset="images/yucaipa/yuc_sign_300.jpg">
+                    <img src="images/yucaipa/yuc_sign_450.jpg" alt="Map of Idaho">
+                </picture>
+                <h2>History of Yucaipa</h2>
+                <h3>by Sahara Quinn</h3>
+                <h4>Native American Era</h4>
+                <p>
+                    The name Yucaipa is somewhat a mystery. The Chamber of Commerce, during the middle of the last century, claimed that it was a Native American word meaning “green valley.” But that was more salesmanship than history. The tribes most closely connected to the place offer conflicting interpretations. The Serrano village located near a spring and small lake in lower Yucaipa was called Yu'kaipa't. Some native speakers say it refers to a low, marshy area. Others say that it means “place of big heads” (referring to some rock formations on Yucaipa Ridge), while still others say it it means “crying place,” because Yucaipa served as a meeting place where disputes were resolved.<br>
+                    Tribes from the surrounding area found Yucaipa an attractive place for several reasons. It served as a major crossroads and therefore was important for trade and, given all the oak trees, it was an important source for acorns and the flour made from them.
+                </p>
+                <h4>Spanish and Mexican Era</h4>
+                <p>
+                    The Spanish period brought the notion of land ownership to the valley, which was part of the large Lugo land grant that included all of the San Bernardino Valley and extended into Yucaipa. Diego Sepulveda, a nephew of Lugo, was given a portion of land in west Yucaipa, later known as Dunlap Acres, and built an adobe home there. Gold was discovered in the Crafton Hills in the early 1840's, before it was discovered at Sutter's Mill, and was mined until WW II.<br>
+                    The late 1870's also saw a small Chinese colony near the old Serrano village. They had been railroad workers who helped lay track through San Timeteo Canyon and later worked the gold mines of Crafton Hills. When they discovered how rich the Dunlap soil was, they planted vegetables and sold their produce throughout Redlands and Yucaipa. Finally, however, they were not treated very well in either area.
+                </p>
+                <h4>Statehood and American Settlement</h4>
+                <p>
+                    California became the 31st state in September of 1850. One year later a group of Mormon settlers from Utah bought the Lugo rancho of San Bernardino, which included lower Yucaipa, and sold off parcels. James Waters bought the land in lower Yucaipa, which included the Sepulveda Adobe. In fact, he used bricks from that building to build his home nearby, a building that still exists today and is known as the Yucaipa Adobe. It is part of the San Bernardino County Museum system and is open to the public.<br>
+                    The second half of 1800's also saw the planting of grain on the lower benches and fruit, mainly apples and cherries, higher up on the North Bench and Oak Glen, where the first real settlement took place. In 1887 the Pass school was built on the North Bench, the first permanent school in the valley.
+                </p>
+                <h4>Modern Era</h4>
+                <p>
+                    Modern Yucaipa began in 1910 with the subdivision of 11,000 acres of Yucaipa by the Redlands and Yucaipa Land Company. Their plan was to create a small townsite surrounded by small farms, most of which were 5, 10 or 20 acres, The land was advertised as ideal for growing apples and hundreds of acres were planted.
+                </p>
+                <h4>The Fruit Era</h4>
+                <p>
+                    While apples weren't quite suited for the lower elevations and did much better in Oak Glen, it was found that peaches, plums and walnuts thrived in the valley. For the next 50 years Yucaipa served as the fruit basket of Southern California.
+                </p>
+                <h4>Post WW II Era</h4>
+                <p>
+                    Yucaipa underwent some major changes after the war. Fruit production diminished, and many of the former orchards were just the right size for trailer parks, chicken ranches and small housing tracts. In 1947 the first trailer park went in. By 1960 there were 50 such parks, though by that time they were known as mobile home estates, and Yucaipa became a retirement destination for many. The first housing tract was developed in 1947. Chicken ranches and egg production soon became our major industry.
+                </p>
+                <h4>Cityhood</h4>
+                <p>
+                    In December 1989 Yucaipa incorporated, and in 1998 one of the last vestiges of its agricultural past was removed when 1000 acres of orange and grapefruit trees were bulldozed to make way for Chapman Heights, a development of 3000 homes, two schools and a golf course.<br>
+By 2015, the retirees made up a much smaller segment of the population, chicken ranches grew more scarce, and subdivisions filled much of the vacant land. With a population of 55,000 Yucaipa no longer has the rural character it once had and has become much more a commuter community.
+                </p>
+            </div>
+        </main>
+
+        <!--Footer-->
+        <footer>
+            <p>&copy;Yucaipa Chamber of Commerce | Jimi Moser</p>
+            <span id="fullDate"></span>
+        </footer>
+
+        <!--JavaScript-->
+        <script src="js/scripts.js"></script>
+        <script src="js/windchill.js"></script>
+        <script src="js/event.js"></script>
+        <script src="js/prestonWeather.js"></script>
+        <script src="js/load.js"></script>
+    </body>
+</html>

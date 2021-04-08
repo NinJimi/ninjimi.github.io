@@ -1,0 +1,74 @@
+{
+    "business": [
+     
+       {
+          "id":"01",
+          "title": "American Road Trip",
+          "address": "33960 Yucaipa Blvd., Yucaipa, California 92399",
+          "phone": "(909) 797-7774",
+          "email": "americanroadtrip@yahoo.com",
+          "web": "http://www.eatatart.net/",
+          "img": "../images/business/art_comp"
+       },
+     
+       {
+        "id":"02",
+        "title": "American Road Trip",
+        "address": "33960 Yucaipa Blvd., Yucaipa, California 92399",
+        "phone": "(909) 797-7774",
+        "email": "americanroadtrip@yahoo.com",
+        "web": "http://www.eatatart.net/",
+        "img": "../images/business/art_comp"
+       },
+
+       {
+        "id":"03",
+        "title": "American Road Trip",
+        "address": "33960 Yucaipa Blvd., Yucaipa, California 92399",
+        "phone": "(909) 797-7774",
+        "email": "americanroadtrip@yahoo.com",
+        "web": "http://www.eatatart.net/",
+        "img": "../images/business/art_comp"
+       },
+
+       {
+        "id":"04",
+        "title": "American Road Trip",
+        "address": "33960 Yucaipa Blvd., Yucaipa, California 92399",
+        "phone": "(909) 797-7774",
+        "email": "americanroadtrip@yahoo.com",
+        "web": "http://www.eatatart.net/",
+        "img": "../images/business/art_comp"
+       },
+
+       {
+        "id":"05",
+        "title": "American Road Trip",
+        "address": "33960 Yucaipa Blvd., Yucaipa, California 92399",
+        "phone": "(909) 797-7774",
+        "email": "americanroadtrip@yahoo.com",
+        "web": "http://www.eatatart.net/",
+        "img": "../images/business/art_comp"
+       },
+
+       {
+        "id":"06",
+        "title": "American Road Trip",
+        "address": "33960 Yucaipa Blvd., Yucaipa, California 92399",
+        "phone": "(909) 797-7774",
+        "email": "americanroadtrip@yahoo.com",
+        "web": "http://www.eatatart.net/",
+        "img": "../images/business/art_comp"
+       },
+
+       {
+        "id":"07",
+        "title": "American Road Trip",
+        "address": "33960 Yucaipa Blvd., Yucaipa, California 92399",
+        "phone": "(909) 797-7774",
+        "email": "americanroadtrip@yahoo.com",
+        "web": "http://www.eatatart.net/",
+        "img": "../images/business/art_comp"
+       }
+    ]
+ }

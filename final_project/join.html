@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <!--Meta-->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+            name="description"
+            content="Yucaipa Chamber of Commerce project for BYU-I WDD 230 by Jimi Moser"
+        />
+        <!--Favicon-->
+        <link rel="shortcut icon" href="images/yuc_favicon.ico" />
+        <!--Fonts-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
+            rel="stylesheet"
+        />
+        <!--Stylesheets-->
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="css/small.css" />
+        <link rel="stylesheet" type="text/css" href="css/medium.css" />
+        <link rel="stylesheet" type="text/css" href="css/large.css" />
+        <!--Everything Else-->
+        <title>Yucaipa Chamber of Commerce</title>
+    </head>
+    <!--Body-->
+    <body>
+        <!--Header-->
+        <header class="clearfix">
+            <img src="images/yuc_chamber_comm.jpg" alt="Yucaipa Chamber of Commerce Logo" />
+            <h1>Yucaipa Chamber of Commerce</h1>
+            <button onclick="toggleMenu()">&#9776;</button>
+            <h2>Let your business's voice be heard!</h2>
+        </header>
+
+        <!--Navigation-->
+        <nav class="clearfix">
+            <ul id="primaryNav" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="yucaipa.html">Yucaipa</a></li>
+                <li class="active"><a href="join.html">Join</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!--Main-->
+        <main class="clearfix">
+            <h2>Join our Community!</h2>
+            <form method="GET" action="thanks.html">
+                <!-- 1st Fieldset -->
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label class="top">First Name* <input type="text" name="fname" pattern="[A-Za-z ]{2,}" required></label>
+                    <label class="top">Last Name* <input type="text" name="lname" pattern="[A-Za-z]{2,}" required></label>
+                    <label class="top">Title <input type="text" name="title" placeholder="CEO"></label>
+                    <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                    <label class="top">Phone <input type="tel" name="phone" placeholder="(123) 555-0123"></label>
+                </fieldset>
+                <!-- 2nd Fieldset -->
+                <fieldset>
+                    <legend>Business Information</legend>
+                    <label class="top">Business Name <input type="text" name="bname" required></label>
+                    <label class="top">Business Address <input type="text" name="baddress"></label>
+                    <label class="top">Business Website <input type="url" name="bwebsite"></label>
+                    <label class="top">Business Description
+                    <textarea name="bdescription" placeholder="Enter comment here..." rows="40" cols="40"></textarea>
+                    </label>
+                    <label class="top">Membership Level
+                        <select name="membership">
+                            <option value="">Select an Option</option>
+                            <option value="nonprofit">Non-Profit [$100]</option>
+                            <option value="bronze">Bronze [$200]</option>
+                            <option value="silver">Silver [$400]</option>
+                            <option value="gold">Gold [$1,000]</option>
+                        </select>
+                    </label>
+                </fieldset>
+                
+                <!-- Submit Button -->
+                <input class="submitButton" type="submit" value="Submit">
+            </form>
+
+        </main>
+
+        <!--Footer-->
+        <footer>
+            <p>&copy;Yucaipa Chamber of Commerce | Jimi Moser</p>
+            <span id="fullDate"></span>
+        </footer>
+
+        <!--JavaScript-->
+        <script src="js/scripts.js"></script>
+        <script src="js/load.js"></script>
+        <script src="js/report.js"></script>
+    </body>
+</html>
