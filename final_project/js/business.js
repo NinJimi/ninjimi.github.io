@@ -25,7 +25,7 @@ fetch("https://ninjimi.github.io/final_project/js/yucaipa.json")
                 phone.textContent = "Phone Number: " + business[i].phone;
                 email.textContent = "Email: " + business[i].email;
                 web.textContent = "Website: " + business[i].web;
-                image.setAttribute('src', '/images/business/' + business[i].img);
+                image.setAttribute('src', '../images/business/' + business[i].img);
                 image.setAttribute('alt', business[i].title);
 
                 photo.appendChild(image);
