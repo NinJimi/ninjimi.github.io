@@ -8,67 +8,67 @@
           "phone": "(909) 797-7774",
           "email": "americanroadtrip@yahoo.com",
           "web": "http://www.eatatart.net/",
-          "img": "yuc_art.png"
+          "img": "yuc_art.jpg"
        },
      
        {
         "id":"02",
-        "title": "American Road Trip",
-        "address": "33960 Yucaipa Blvd., Yucaipa, California 92399",
-        "phone": "(909) 797-7774",
-        "email": "americanroadtrip@yahoo.com",
-        "web": "http://www.eatatart.net/",
-        "img": "../images/business/art_comp"
+        "title": "Brewcaipa Brewing Co Inc",
+        "address": "35058 Yucaipa Blvd Yucaipa, CA 92399",
+        "phone": "(909) 797-2337",
+        "email": "-",
+        "web": "http://www.brewcaipa.com/",
+        "img": "yuc_brew.jpg"
        },
 
        {
         "id":"03",
-        "title": "American Road Trip",
-        "address": "33960 Yucaipa Blvd., Yucaipa, California 92399",
-        "phone": "(909) 797-7774",
-        "email": "americanroadtrip@yahoo.com",
-        "web": "http://www.eatatart.net/",
-        "img": "../images/business/art_comp"
+        "title": "Clarkie's Diner",
+        "address": "13661 Calimesa Blvd Yucaipa, California 92399",
+        "phone": "(909) 795-3500",
+        "email": "-",
+        "web": "https://www.facebook.com/Clarkiesdiner/",
+        "img": "yuc_clarkie.jpg"
        },
 
        {
         "id":"04",
-        "title": "American Road Trip",
-        "address": "33960 Yucaipa Blvd., Yucaipa, California 92399",
-        "phone": "(909) 797-7774",
-        "email": "americanroadtrip@yahoo.com",
-        "web": "http://www.eatatart.net/",
-        "img": "../images/business/art_comp"
+        "title": "First Time Driver",
+        "address": "32999 Yucaipa Boulevard, Suite 103 Yucaipa, California 92399",
+        "phone": "(909) 790-9710",
+        "email": "info@firsttimedriverca.com",
+        "web": "https://www.firsttimedriverca.com/",
+        "img": "yuc_ftd.jpg"
        },
 
        {
         "id":"05",
-        "title": "American Road Trip",
-        "address": "33960 Yucaipa Blvd., Yucaipa, California 92399",
-        "phone": "(909) 797-7774",
-        "email": "americanroadtrip@yahoo.com",
-        "web": "http://www.eatatart.net/",
-        "img": "../images/business/art_comp"
+        "title": "Jake's Italian Bistro & Brew",
+        "address": "12170 4th Street Yucaipa, California 92399",
+        "phone": "(909) 790-8750",
+        "email": "-",
+        "web": "http://www.jakesbistroandbrew.com/",
+        "img": "yuc_jake.jpg"
        },
 
        {
         "id":"06",
-        "title": "American Road Trip",
-        "address": "33960 Yucaipa Blvd., Yucaipa, California 92399",
-        "phone": "(909) 797-7774",
-        "email": "americanroadtrip@yahoo.com",
-        "web": "http://www.eatatart.net/",
-        "img": "../images/business/art_comp"
+        "title": "Les Schwab Tire Centers",
+        "address": "33921 Yucaipa Blvd Yucaipa, CA 92399",
+        "phone": "(909) 372-7970",
+        "email": "-",
+        "web": "https://www.lesschwab.com/",
+        "img": "yuc_lesch.jpg"
        },
 
        {
         "id":"07",
-        "title": "American Road Trip",
-        "address": "33960 Yucaipa Blvd., Yucaipa, California 92399",
-        "phone": "(909) 797-7774",
-        "email": "americanroadtrip@yahoo.com",
-        "web": "http://www.eatatart.net/",
-        "img": "../images/business/art_comp"
+        "title": "Yucaipa Animal Placement Society",
+        "address": "11937 13th Street Yucaipa, CA 92399",
+        "phone": "(909) 790-1440",
+        "email": "-",
+        "web": "http://www.yaps.org/",
+        "img": "yuc_yaps.jpg"
        }
     ]
  }

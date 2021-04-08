@@ -10,6 +10,9 @@ var output = weekday[now.getDay()] + ", " + now.getDate() + " " + monthName[now.
 document.getElementById("fullDate").innerHTML = output;
 
 /* Toggle Directory View */
-function toggleView(){
-    document.getElementById("gridView").classList.toggle("listView");
+function togglegridView(){
+    document.getElementById("card_info").classList.replace("list", "grid");
+}
+function togglelistView(){
+    document.getElementById("card_info").classList.replace("grid", "list");
 }

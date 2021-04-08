@@ -35,11 +35,11 @@
         transition: 0.3s ease-in-out;
     }
     /* Home Page */
-    main article#card_info{
+    main article.grid{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
-    main article#card_info div{
+    main article.grid div{
         display:block;
     }
 } /*End of Media Query */

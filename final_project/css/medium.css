@@ -89,17 +89,43 @@
     main div.gallery {
         grid-template-columns: 1fr 1fr;
     }
-    /*Home Page*/
-    main article#card_info div{
+    /*Article Card*/
+    main button.view{
+        display: block;
+        float: right;
+        border: none;
+        background-color: #89cf34;
+        color: black;
+        border-radius: 6px;
+        font-size: 1.2rem;
+        font-weight: 500;
+        padding: .4rem;
+        margin-left: 1rem;
+        transition: ease-in-out 250ms;
+    }
+    main button.view img{
+        max-width: 50%;
+    }
+    main button.hide{
+        display: none;
+    }
+    main article.list div{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    main article#card_info div:nth-child(odd) figure{
+    main article.list div:nth-child(odd) figure{
         grid-column: 2;
     }
-    main article#card_info div:nth-child(odd) section{
+    main article.list div:nth-child(odd) section{
         grid-column: 1;
         grid-row: 1;
+    }
+    main article.grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    main article.grid div{
+        display:block;
     }
 
 } /* End of Media Query */

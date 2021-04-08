@@ -164,6 +164,9 @@ main section.events h2{
 }
 
 /* Article Card*/
+main button.view{
+    display:none;
+}
 main article#card_info div{
     background-color: #93b7be;
     padding: .3rem;
@@ -179,6 +182,9 @@ main article#card_info img{
     max-width: 100%;
     margin: 0 auto;
     box-shadow: 2px 2px 5px black;
+}
+main div.view{
+    margin: 0;
 }
 /* Form */
 form{

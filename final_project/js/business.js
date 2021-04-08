@@ -1,4 +1,4 @@
-fetch("https://ninjimi.github.io/final_project/js/yucaipa.json")
+fetch("yucaipa.json")
 .then(function (response) {
     return response.json();
     })
