@@ -5,9 +5,7 @@ fetch("https://ninjimi.github.io/final_project/js/yucaipa.json")
 .then(function (jsonObject) {
         console.table(jsonObject);
         const business = jsonObject['business'];
-        for (let i = 0; i < business.length; i++ ) {
-            if (i==0 || i==2 || i==6){
-                
+        for (let i = 0; i < business.length; i++ ) {    
                 let card = document.createElement('div');
 
                 let info = document.createElement('section');
@@ -39,6 +37,6 @@ fetch("https://ninjimi.github.io/final_project/js/yucaipa.json")
                 card.appendChild(info);
 
                 document.getElementById('card_info').appendChild(card);
-            }
+            
         }
     });
