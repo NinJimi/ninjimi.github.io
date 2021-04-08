@@ -1,41 +1,41 @@
-const requestURL = 'yucaipa.json';
-fetch(requestURL)
+fetch("https://ninjimi.github.io/final_project/js/yucaipa.json")
 .then(function (response) {
     return response.json();
     })
 .then(function (jsonObject) {
         console.table(jsonObject);
-        const business = jsonObject['towns'];
+        const business = jsonObject['business'];
         for (let i = 0; i < business.length; i++ ) {
             if (i==0 || i==2 || i==6){
+                
                 let card = document.createElement('div');
 
                 let info = document.createElement('section');
                 let photo = document.createElement('figure');
 
                 let businessName = document.createElement('h2');
-                let motto = document.createElement('h3');
-                let founded = document.createElement('p');
-                let population = document.createElement('p');
-                let rain = document.createElement('p');
+                let desc = document.createElement('p');
+                let address = document.createElement('p');
+                let phone = document.createElement('p');
+                let email = document.createElement('p');
                 let image = document.createElement('img');
 
                 businessName.textContent = business[i].title;
-                motto.textContent = business[i].motto;
-                founded.textContent = "Year Founded: " + business[i].yearFounded;
-                population.textContent = "Population: " + business[i].currentPopulation + " souls";
-                rain.textContent = "Annual Rain Fall: " + business[i].averageRainfall + " in.";
-                image.setAttribute('src', 'images/home/'+business[i].photo);
-                image.setAttribute('alt', business[i].name + " Hometown");
+                desc.textContent = business[i].motto;
+                address.textContent = "Address: " + business[i].address;
+                phone.textContent = "Phone Number: " + business[i].phone;
+                email.textContent = "Email: " + business[i].email;
+                image.setAttribute('src', business[i].img);
+                image.setAttribute('alt', business[i].title);
 
                 photo.appendChild(image);
                 card.appendChild(photo);
 
                 info.appendChild(businessName);
-                info.appendChild(motto);
-                info.appendChild(founded);
-                info.appendChild(population);
-                info.appendChild(rain);
+                info.appendChild(desc);
+                info.appendChild(address);
+                info.appendChild(phone);
+                info.appendChild(email);
                 card.appendChild(info);
 
                 document.getElementById('card_info').appendChild(card);
